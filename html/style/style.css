@@ -1,0 +1,74 @@
+/*Global Css*/
+
+.navbar{
+    background:#00A5c4;
+    padding: 0 !important;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+}
+
+/*Banner Section*/
+#banner-area{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.shop-now{
+    background:#00A5c4;
+}
+.shopp-now{
+    color: white;
+}
+/*Top Sale*/
+/*
+#top-sale, .owl-carousel, .item, .product a{
+    overflow: hidden;
+}
+#top-sale, .owl-carousel, .item, .product .img-top {
+    transition: transform .5s ease;
+}
+#top-sale, .owl-carousel, .item, .product, .img-top:hover{
+    transform:scale(1.025);
+}
+*/
+.owl-carousel .owl-nav button{
+    position: absolute;
+    top: 15%;
+    outline: none;
+}
+.owl-carousel .owl-nav button.owl-prev{
+   left: 0;
+
+}
+.owl-carousel .owl-nav button.owl-prev span{
+    font-size: 50px;
+    color:red;
+    margin-left: -4rem;
+    padding: 0 1rem;
+}
+.owl-carousel .owl-nav button.owl-next{
+    right: 0;
+ }
+ .owl-carousel .owl-nav button.owl-next span{
+    font-size: 50px;
+    color:red;
+    margin-right: -4rem;
+    padding: 0 1rem;
+ }
+
+ /*Special Price*/
+ #special-price, .grid, .grid-item{
+     margin-right: 1.2rem;
+     margin-top: 1rem;
+ }
